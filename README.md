@@ -1,18 +1,26 @@
-## Getting Started
+# SimpleGUI Java App
 
-Welcome to the VS Code Java world. Here is a guideline to help you get started to write Java code in Visual Studio Code.
+This is a simple Java Swing application that demonstrates basic GUI elements: a text field, a button, and a label. When the user enters their name in the text field and clicks the button, the label updates to greet them.
 
-## Folder Structure
+## 🖼 Features
 
-The workspace contains two folders by default, where:
+- Graphical window with absolute positioning
+- `JTextField` for user input
+- `JButton` to trigger actions
+- `JLabel` to display a personalized greeting
 
-- `src`: the folder to maintain sources
-- `lib`: the folder to maintain dependencies
+## 🧪 How It Works
 
-Meanwhile, the compiled output files will be generated in the `bin` folder by default.
+1. The app opens a small window titled **"My First GUI"**
+2. The user types their name into the text field
+3. Clicking the **"Click Me"** button triggers an action listener
+4. The label updates to say `Hello, <name>!`
 
-> If you want to customize the folder structure, open `.vscode/settings.json` and update the related settings there.
+## 🚀 Getting Started
 
-## Dependency Management
+### Prerequisites
 
-The `JAVA PROJECTS` view allows you to manage your dependencies. More details can be found [here](https://github.com/microsoft/vscode-java-dependency#manage-dependencies).
+Make sure you have the Java JDK installed. You can verify this by running:
+
+```bash
+java -version
